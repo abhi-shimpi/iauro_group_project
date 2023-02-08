@@ -41,10 +41,10 @@ const userSchema=new mongoose.Schema({
                     required:true
                  }
              }
-         ]
-}
-
-)
+         ],
+        createdForms:[]
+     },{timestamps: true}
+);
 
 
 //generating token
